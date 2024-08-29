@@ -1,0 +1,12 @@
+{
+    "FormattingOptions": {
+        "organizeImports": true,
+        "enableEditorConfigSupport": true
+    },
+    "MSBuild": {
+        "UseLegacySdkResolver": true
+    },
+    "RoslynExtensionsOptions": {
+        "enableImportCompletion": true
+    }
+}
