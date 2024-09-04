@@ -44,4 +44,12 @@ augroup omnisharp_commands
   autocmd!
 autocmd FileType cs nmap <silent> <buffer> K <Plug>(omnisharp_documentation)
 
+augroup markdown
+    autocmd!
+    autocmd BufRead *.md :Goyo 120x30
+augroup END
+
+
+
+
 
